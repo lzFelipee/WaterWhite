@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,500;1,500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFE0;
+}
+
+header {
+    background-color: #7FBBB2;
+    color: #fff;
+    padding: 30px 70px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+nav a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 10px;
+    font-family: "Libre Bodoni", serif;
+}
+
+#problema {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+
+.problema-text {
+    width: 50%;
+    padding: 0 40px;
+    background-color: #7FBBB2;
+    color: #fff; 
+    box-sizing: border-box; 
+}
+
+#imgpb {
+    max-width: 100%; 
+    height: auto;
+    margin: 20px 0;
+}
+
+.benefícios h2 {
+    text-align: center;
+}
+
+.benefícios p {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blocos {
+    display: flex;
+    justify-content: center;
+    padding: 0 30px;
+    flex-wrap: wrap; 
+}
+
+.benefícios .bloco-item {
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+}
+
+img {
+    border-radius: 40px;
+}
+
+.benefícios .bloco-item:hover {
+    background-color: #7FBBB2;
+}
+
+.imgp {
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.obj1 {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    margin-left: 300px;
+}
+
+#objetivo {
+    text-align: left;
+    font-size: 20px;
+}
+
+.publv {
+    height: 300px;
+    width: 600px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.textob {
+    display: inline-block;
+    margin: 40px;
+    font-size: 20px;
+}
+
+#imgpb {
+    height: 500px;
+    width: 650px;
+}
+
+.texto2 {
+    display: inline-block;
+    margin: 80px;
+    font-size: 20px;
+}
+
+#imgobj {
+    height: 400px;
+    width: 100%;
+}
+
+.texto3 {
+    font-size: 20px;
+    text-align: center;
+    text-indent: 20px;
+    margin: 15px 0;
+}
+
+#publico {
+    background-color: #fff;
+}
+
+.solucao1 {
+    height: 460px;
+    width: 600px;
+}
+
+#imgs {
+    height: 300px;
+    width: 330px;
+    display: inline-block;
+    margin-right: 40px;
+    padding-right: 20px;
+}
+
+#benefícios table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#benefícios table td {
+    padding: 30px;
+}
+
+#benefícios .imgs {
+    text-align: center;
+}
+
+#benefícios .imgs img {
+    margin: 0 15px;
+}
+
+footer {
+    background-color: #7FBBB2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #55acee;
+}
+
+.texto4 {
+    display: inline-block;
+    margin: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.news-carousel {
+    text-align: center;
+}

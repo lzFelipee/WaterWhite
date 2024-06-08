@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterWhite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#problema">Problema</a>
+                <a href="#objetivo">Objetivos</a>
+                <a href="#solucao">Solução</a>
+                <a href="#beneficios">Benefícios</a>
+                <a href="#publico">Público alvo</a>
+                <a href="#tecnologia">Tecnologia</a>
+            </nav>
+        </div>
+    </header>
+    
+    <div class="banner"> 
+        <img src="/img/banner.png" alt="Banner" width="100%"> 
+    </div>
+
+    <section>
+        <div class="news-carousel">
+            <div class="news-carousel">
+                <div class="news-item"><img src="/img/carro2.jpeg" alt="Imagem do Navio" id="carros" height="400px" width="500px"></div>
+                <div class="news-item"><img src="/img/carro3.jpeg" alt="Imagem do Navio" id="carros" height="400px" width="500px"></div>
+                <div class="news-item"><img src="/img/carro4.jpeg" alt="Imgem do Navio" id="carros" height="400px" width="500px"></div>
+            </div>
+            
+        </div>
+        
+        <script>
+            let newsIndex = 0;
+            showNews();
+        
+            function showNews() {
+                let i;
+                let news = document.getElementsByClassName("news-item");
+                for (i = 0; i < news.length; i++) {
+                    news[i].style.display = "none";
+                }
+                newsIndex++;
+                if (newsIndex > news.length) {newsIndex = 1}
+                news[newsIndex-1].style.display = "block";
+                setTimeout(showNews, 3000); // Muda de notícia a cada 3 segundos
+            }
+        </script>
+    </section>
+    <section id="problema">
+        <div class="container">
+            <div class="problema-text">
+                <h1>Impactos Ambientais e Econômicos do Lastro Marítimo</h1>
+                <p>O lastro de um navio é a água colocada nos tanques de lastro de uma embarcação para ajudar a estabilizá-la.</p>
+                <p>O lastro contém organismos marinhos, como larvas, algas e microorganismos, que podem ser transferidos de um ecossistema para outro quando a água do lastro é liberada em portos estrangeiros.</p>
+                <p>Gera danos econômicos ao introduzir espécies invasoras e poluir o ambiente marinho, impactando ecossistemas, pesca, turismo e infraestrutura portuária, com custos significativos para controle e limpeza.</p>
+                <p>O lastro dos navios pode conter óleos, produtos químicos e sedimentos prejudiciais, que são liberados na água quando o lastro é esvaziado, causando poluição e prejudicando a vida marinha.</p>
+            </div>
+            <div class="imagem">
+                <img src="/img/grafico.jpg" alt="Gráfico dos impactos do lastro marítimo" id="imgpb">
+            </div>
+        </div>
+    </section>
+       
+    <section id="objetivo">
+        <div class="container">
+            <div class="objetivo-texto">
+                <h2 class="titulo">Objetivo do projeto</h2>
+                <p class="texto3">Nossa meta é desenvolver um sistema eficiente de gestão para controlar o fluxo de água de lastro em grandes embarcações, visando mitigar danos aos ecossistemas marinhos. Nosso compromisso vai além do cumprimento das regulamentações, buscamos implementar práticas sustentáveis e inovadoras para proteger a vida marinha e preservar a saúde dos oceanos.</p>
+                <img src="/img/imgagua.jpg" alt="Imagem de água" id="imgobj">
+            </div>
+        </div>
+    </section>
+
+    <section id="solucao">
+        <div class="container">
+            <div class="solucao">
+                <h2 class="titulo">Solução</h2>
+                <p class="texto3">O desenvolvimento de um sistema de monitoramento remoto para avaliar a qualidade da água de lastro dos tanques, visa aprimorar a confiabilidade dos dados fornecidos pelas embarcações.</p>
+                <p class="texto3">A gestão eficaz da água de lastro ajuda a proteger os ecossistemas marinhos e conscientiza as empresas sobre seus impactos ambientais, reduzindo danos à vida selvagem e ao meio ambiente.</p>
+                <p class="texto3">Irá minimizar os prejuízos causados pelas espécies invasoras e doenças em geral para a população costeira.</p>
+            </div>
+            <div class="imagem">
+                <img src="/img/solucao.png" alt="Solução" class="solucao1">
+            </div>
+        </div>
+    </section>
+    
+    <section id="publico">
+        <div class="container">
+            <div class="publico">
+                <h2 class="titulo">Público Alvo</h2>
+                <p class="texto2">Nosso público-alvo é diversificado e inclui autoridades portuárias, empresas de transporte marítimo, pesquisadores, ambientalistas, cientistas e organizações ambientais. Todos compartilham um interesse comum: proteger os oceanos. Nosso projeto de gestão da água de lastro oferece soluções inovadoras para minimizar os impactos ambientais e promover a sustentabilidade marinha. Junte-se a nós nessa importante jornada pela preservação dos nossos oceanos.</p>
+            </div>
+            <div class="imagem">
+                <img src="/img/pubv.jpg" alt="Público alvo" class="publv">
+            </div>
+        </div>
+    </section>
+    
+    <section id="beneficios">
+        <h2 class="Beneficiost">Beneficios encontrados no projeto</h2>
+        <table>
+            <tr>
+                <th>Cumprimento de leis:</th>
+                <th>Gestão Eficiente:</th>
+                <th>Conscientização e Responsabilidade:</th>
+            </tr>
+            <tr>
+                <td>Garantia de conformidade com as regulamentações ambientais relacionadas à qualidade da água de lastro.</td>
+                <td>Facilitação da gestão adequada da água de lastro, reduzindo os riscos para os ecossistemas costeiros e a saúde pública.</td>
+                <td>Aumento da conscientização sobre os impactos das atividades marítimas e promoção de ações responsáveis ​​para minimizar esses impactos.
+                </td>
+            </tr>
+        </table>
+        <div class="imgs">
+            <img src="/img/lei.jpg" alt="foto-da-loja" id="imgs">
+            <img src="/img/gestao.jpg" alt="armazenamento" id="imgs">
+            <img src="/img/planeta.jpg" alt="atendimento" id="imgs">
+        </div>
+        <section id="tecnologia">
+            <div class="container">
+                <div class="tec">
+                    <h2 class="titulo">Tecnologia Usada</h2>
+                    <p class="texto4">sistema de rede de sensores instalados nos tanques de lastro das embarcações, são coletados dados em tempo real sobre os parâmetros da água.</p> 
+                
+                    <p class="texto4">Os dados são transmitidos remotamente para uma plataforma central, onde são processados e analisados, os resultados são disponibilizados para as autoridades reguladoras, as empresas de navegação
+                    e outras partes interessadas.</p>
+                </div>
+                <div class="imagem">
+                    <img src="/img/tec1.jpg" alt="Público alvo" class="publv">
+                </div>
+            </div>
+        </section>
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>Siga-nos nas redes sociais</p>
+    </footer>
+</body>
+</html>
